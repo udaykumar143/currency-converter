@@ -1,0 +1,61 @@
+.currency-converter {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #f0f2f5; /* Light gray background */
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1),
+    -10px -10px 30px rgba(255, 255, 255, 0.5); /* Neomorphic shadow */
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+select,
+input[type="number"] {
+  width: calc(50% - 5px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.result {
+  margin-top: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 8px 16px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.convert-btn {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.add-btn {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.remove-btn {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.error {
+  color: #f44336;
+}
